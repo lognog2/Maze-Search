@@ -1,11 +1,6 @@
-#ifndef COP4530_STACK_H
-#define COP4530_STACK_H
 #include <iostream>
 #include <stdexcept>
 #include <vector>
-
-namespace cop4530 {
-
 template <typename T>
 class Stack
 {
@@ -29,5 +24,3 @@ class Stack
 
 }; //end stack class
 #include "Stack.hpp"
-} //end namespace cop4530
-#endif
