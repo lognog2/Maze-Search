@@ -1,10 +1,6 @@
-#ifndef COP4530_STACK_HPP
-#define COP4530_STACK_HPP
 #include <iostream>
 #include <stdexcept>
 #include <vector>
-
-using namespace cop4530;
 
 //no parameter constructor
 template <typename T>
@@ -90,5 +86,3 @@ int Stack<T>::size()
 {
     return vect.size();
 }
-
-#endif
