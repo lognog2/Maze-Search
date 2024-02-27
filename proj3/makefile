@@ -1,8 +1,8 @@
-output: proj3.o
-	g++ -std=c++11 proj3.o -o proj3.x
+output: maze.o
+	g++ -std=c++11 maze.o -o maze.x
 
-proj3.o: proj3.cpp
-	g++ -c -std=c++11 proj3.cpp
+maze.o: maze.cpp
+	g++ -c -std=c++11 maze.cpp
 
 clean:
-	rm -*.o proj3.x -*.gcb
+	rm -*.o maze.x -*.gcb
