@@ -17,7 +17,8 @@
   - The previous space is marked with an arrow in the direction the path goes.
   - If the program reaches a dead end, it marks the space with an X and backtracks through the stack until another opening is found.
   - This process repeats until the goal is reached or the maze is declared unsolvable.
- 
-  ## Future ideas
-  - random maze generator
-  - custom maze maker built-in
+
+*Future ideas*
+-
+- random maze generator
+- custom maze maker built-in
