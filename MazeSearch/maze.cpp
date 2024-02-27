@@ -2,7 +2,6 @@
 #include "Stack.h"
 
 using namespace std;
-using namespace cop4530;
 
 int bit(int val, int place);
 
@@ -190,7 +189,6 @@ int main()
 } //end main
 
 //finds a bit value of a decimal number. val is decimal and place (8, 4, 2, 1) is which bit to return
-//complexity is O(1)
 int bit(int val, int place)
 {
     return ((val / place) % 2);
